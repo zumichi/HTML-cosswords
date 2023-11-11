@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Crosswords</title>
+   
+   <style>
+      body {
+         
+         padding-top: 130px;
+         margin: 0;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         background-color: lightgrey;
+      }
+      
+      .header {
+         
+         width: 80%;
+         height 30px;
+         padding: 20px;
+         margin-left: 10%;
+         border-radius: 80px;
+         top: 0;
+         position: fixed;
+         text-align: center;
+         background-color: #6acbff;
+     }
+      
+      table {
+         
+         width: 90%;
+         margin-left: 5%;
+         border-collapse: collapse;
+         border: 10px inset lightblue;
+         background-color: white;
+      }
+      
+      .dcell {
+         
+         background-color: lightblue;
+      }
+      
+      .clues {
+         
+         margin-left: 30px;
+      }
+   </style>
+</head>
+<body>
+   
+   <h1 class="header"> Crosswords in HTML </h1>
+   <table border="1" cellpadding="30px">
+      <tr> <!-- 1 -->
+         <td class="dcell"></td>
+         <td>1</td>
+         <td></td>
+         <td>2</td>
+         <td class="dcell" rowspan="2" colspan="2"></td>
+         <td>3</td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td class="dcell" colspan="2"></td>
+      </tr
+      <tr> <!-- 2 -->
+         <td>4</td>
+         <td class="dcell" colspan="2"></td>
+         <td></td>
+         <td></td>
+         <td class="dcell" colspan="5"></td>
+      </tr>
+      <tr> <!-- 3 -->
+         <td></td>
+         <td class="dcell"></td>
+         <td>5</td>
+         <td></td>
+         <td></td>
+         <td class="dcell"></td>
+         <td></td>
+         <td class="dcell"></td>
+         <td>6</td>
+         <td class="dcell" rowspan="2" colspan="3"></td>
+      </tr>
+      <tr> <!-- 4 -->
+         <td></td>
+         <td class="dcell" colspan="2"></td>
+         <td></td>
+         <td class="dcell" colspan="2"></td>
+         <td></td>
+         <td class="dcell"></td>
+         <td></td>
+      </tr>
+      <tr> <!-- 5 -->
+         <td></td>
+         <td class="dcell" colspan="2"></td>
+         <td></td>
+         <td class="dcell" colspan="3"></td>
+         <td>7</td>
+         <td></td>
+         <td></td>
+         <td class="dcell" colspan="2"></td>
+      </tr>
+      <tr> <!-- 6 -->
+         <td>8</td>
+         <td></td>
+         <td>9</td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td class="dcell" colspan="2"></td>
+         <td></td>
+         <td class="dcell" colspan="3"></td>
+      </tr>
+      <tr> <!-- 7 -->
+         <td></td>
+         <td class="dcell"></td>
+         <td></td>
+         <td class="dcell" colspan="3"></td>
+         <td>10</td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr> <!--8 -->
+         <td></td>
+         <td class="dcell"></td>
+         <td></td>
+         <td class="dcell"></td>
+         <td>11</td>
+         <td class="dcell" colspan="3"></td>
+         <td></td>
+         <td class="dcell" colspan="3"></td>
+      </tr>
+      <tr> <!-- 9 -->
+         <td class="dcell" colspan="3"></td>
+         <td>12</td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td class="dcell"></td>
+      </tr>
+      <tr> <!-- 10 -->
+         <td class="dcell" rowspan="2" colspan="4"></td>
+         <td></td>
+         <td class="dcell" colspan="3"></td>
+         <td></td>
+         <td class="dcell" colspan="3"></td>
+      </tr>
+      <tr> <!-- 11 -->
+         <td></td>
+         <td class="dcell" colspan="7"></td>
+      </tr>
+   </table>
+   
+   <h2 class="clues"> Across </h2>
+   <p class="clues">
+      1. Cascading Style Sheets <br>
+      3. Hypertext Markup Language <br>
+      5. Uniform Resource Locator <br>
+      7. World Wide Web <br>
+      8. Action to find information on the internet <br>
+      10. Process of transferring data from a local system to a remote one <br>
+      12. Network security system that monitors and controls incoming/outgoing traffic
+   </p>
+   <h2 class="clues"> Down </h2>
+   <p class="clues">
+      2. Computer or system that provides resources to other computers, also known as clients. <br>
+      3. Hypertext Transfer Protocol <br>
+      4. Software for accessing and navigating the internet <br>
+      6. Retrieve data from the internet to a local device <br>
+      9. Application Programming Interface  <br>
+      11. Connection between two web pages or resources
+   </p>
+</body>
+</html>
